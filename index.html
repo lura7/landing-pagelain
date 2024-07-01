@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page - Lain</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Remary<span class="blinking-cursor">|</span></h1>
+    <h2>Sobre mim</h2>
+    <p>Artista/Thumbmaker trans <br>tanananana mariana pelotas<span class="blinking-cursor">|</span></p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="https://www.youtube.com/playlist?list=PLXVAT5nt3EgYL_xKsZUG6AoqepcpBrAXG" target="_blank" id="portfolio-button">Portfólio<span class="blinking-cursor">|</span></a></li>
+      <li><a href="https://twitch.tv/remaryzinha" target="_blank" id="twitch-button">twitch<span class="blinking-cursor">|</span><i data-feather="twitch"></i> </a> </i> </li>
+      <li><a href="#redes" id="redes-button">Redes Sociais<span class="blinking-cursor">|</span></a></li>
+    </ul>
+  </nav>
+  <section id="music">
+    <div class="container">
+        <h2 class="title is-3 glitch" data-text="Músicas">Músicas</h2>
+
+        <article class="columns is-multiline">
+            <div class="column is-one-third">
+                <figure class="video-wrapper">
+                    <a href="https://www.youtube.com/watch?v=wr5tMxciPko&ab_channel=remary" target="_blank" class="video-thumbnail">
+                        <img src="https://img.youtube.com/vi/wr5tMxciPko/maxresdefault.jpg" alt="Video 1">
+                        <div class="play-icon">
+                            <i data-feather="play-circle"></i>
+                        </div>
+                    </a>
+                </figure>
+            </div>
+        </article>
+    </div>
+</section>
+  
+
+  <section id="redes" class="modal">
+    <h2>Redes Sociais</h2>
+    <a href="https://www.instagram.com/remaryzinha"><div class="insta-icon">
+        <i data-feather="instagram"></i> </div></a>
+    <a href="https://twitter.com/remaryzinha"><div class="twitter-icon"><i data-feather="twitter"></i></div></a>
+    <button class="button close-button">X</button>
+  </section>
+  <img id="lain-image" src="css/imagens/lain.png" alt='Lain'> 
+  
+  <footer>
+    <p>© 2024 7jiwi</p>
+    <button onclick="copyDiscord()">Copiar User do Discord</button>
+  </footer> 
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script>
+    feather.replace();  </script>
+  <script src="js/script.js"></script>  </body>
+</html>
