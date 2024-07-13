@@ -37,7 +37,7 @@ window.addEventListener('click', (event) => {
   
   // Funções utilitárias
   function copyDiscord() {
-    const discordUsername = 'jiwi7'; // Substitua pelo seu nome de usuário do Discord
+    const discordUsername = 'nanasmari';
     navigator.clipboard.writeText(discordUsername).then(() => {
       alert('User discord copiado para a área de transferência!');
     }).catch(err => {

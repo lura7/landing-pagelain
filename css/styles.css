@@ -21,7 +21,7 @@ header, nav, footer {
 
 header h1, header h2 {
     font-size: calc(1.5em + 1vw); /* Tamanho relativo à largura da tela */
-    color: #00fd6a;
+    color: #5AE65F;
     margin: 0;
     text-align: center; /* Centraliza o texto */
 }
